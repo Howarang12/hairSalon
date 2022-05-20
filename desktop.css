@@ -1,0 +1,303 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/* Header */
+header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 1.5rem 0;
+  font-size: 1.2rem;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+nav ul{
+  display: flex;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+}
+
+#logo{
+  font-family: Festive, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#flex_placeholder{
+  display: none;
+}
+
+#hamburger{
+  display: none;
+}
+
+/* main section*/
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10vh 10vw;
+  background-image: url('https://www.rokkebony.com.au/wp-content/uploads/2019/11/RokkEbony_News_-Balayage-Hair-Colouring@2x.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+main h1{
+  font-size: 7rem;
+  padding-bottom: 2rem;
+}
+
+main p{
+  font-size: 1.5rem;
+  padding-bottom: 4rem;
+  line-height: 1.6;
+}
+
+main a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 1.5rem 2.5rem;
+}
+
+#first{
+  background-color: black;
+  color: white;
+  padding: 3rem 3rem 5rem 3rem;
+  margin-top: 5rem;
+}
+
+#first span{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#first a{
+  background-color: white;
+  color: black;
+}
+
+#hours{
+  position: absolute;
+  transform: rotate(0.25turn);
+  right: 0;
+  font-size: 1.4rem;
+}
+
+/* Info Section */
+
+#about{
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 10vw;
+}
+
+.info{
+  text-align: center;
+}
+
+.info i{
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.info div{
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding-bottom: 1.5rem;
+}
+
+.info p{
+  line-height: 1.6;
+  font-size: 1.2rem;
+  padding: 0 1rem ;
+}
+
+/* Momentum section */
+#momentum{
+  display: flex;
+  padding: 5vh 5vw;
+  justify-content: space-between;
+  background-color: #f3f4f6;
+}
+
+#momentum div{
+  padding: 5vh 5vw;
+}
+
+#momentum_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#momentum_info h3{
+  font-size: 5rem;
+  line-height: 1.4;
+}
+
+#momentum_info p{
+  line-height: 1.6;
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+}
+
+#momentum_info a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 1.5rem 2.5rem;
+  margin-right: auto;
+}
+
+#momentum_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Employees section */
+#employees{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10vh 10vw;
+}
+
+.employee{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee img{
+  z-index: -1;
+}
+
+.nameplate{
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2.5rem;
+  background-color: black;
+  color: white;
+  width: 75%;
+  justify-self: center;
+  position: relative;
+  top: -2.5rem;
+}
+
+.nameplate p{
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.nameplate span{
+  line-height: 1.6;
+}
+
+/* offer section */
+#offer{
+  margin: 0vh 10vw;
+  padding: 10vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f5;
+  background-image: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Promo-Banner-Image.jpg?id=4553');
+  background-repeat: no-repeat;
+  background-position: right center ;
+  background-size: contain;
+}
+
+
+#offer div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#offer h3{
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+#offer p{
+  font-size: 2.2rem;
+  line-height: 1.6;
+  padding-bottom: 3rem;
+}
+
+#offer span{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#offer a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1.5rem 2.5rem;
+  width: 70%;
+  text-align: center;
+}
+
+/* lookbook section */
+
+#lookbook{
+  padding: 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lookbook h3{
+  font-size: 4rem;
+  padding-bottom: 5rem;
+}
+
+#lookbook_images{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#lookbook_images div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+
+
+
