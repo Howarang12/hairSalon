@@ -54,6 +54,11 @@ main{
   flex-direction: column;
   min-width: 1024px;
   background-color: #f3f4f6;
+  background-image: url('https://www.rokkebony.com.au/wp-content/uploads/2019/11/RokkEbony_News_-Balayage-Hair-Colouring@2x.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
 
 main h1{
